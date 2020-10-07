@@ -1,31 +1,6 @@
 # Hello World
 
-Hello world Docker image for testing :).
-
-This is referenced in <https://blog.openshift.com/telepresence-local-development/> and at various places in [the Telepresence documentation](https://www.telepresence.io/discussion/overview).
-
-## Usage
-
-### Run it locally
-
-```shell
-$ python3 -m venv venv
-
-$ ./venv/bin/pip install -qr requirements.txt
-
-$ ./venv/bin/python3 server.py
- * Serving Flask app "server" (lazy loading)
- * Environment: production
-   WARNING: Do not use the development server in a production environment.
-   Use a production WSGI server instead.
- * Debug mode: on
- * Running on http://0.0.0.0:8000/ (Press CTRL+C to quit)
- * Restarting with stat
- * Debugger is active!
- * Debugger PIN: 196-776-054
-127.0.0.1 - - [03/Apr/2019 13:07:30] "GET / HTTP/1.1" 200 -
-[...]
-```
+Hello world Docker image for testing.
 
 ### Build a Docker image
 
